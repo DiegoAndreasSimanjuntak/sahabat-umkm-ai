@@ -60,6 +60,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <html lang="id">
   <head>
     <meta charset="UTF-8" />
+    <meta name="dicoding:email" content="diegosimanjuntak2006@gmail.com" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Daftar - SahabatUMKM AI</title>
     <link rel="stylesheet" href="assets/css/styles.css" />
