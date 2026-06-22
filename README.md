@@ -11,35 +11,16 @@ SahabatUMKM AI adalah MVP web berbasis PHP dan MySQL untuk IDCamp Developer Chal
 - Alat bantu ekspor untuk deskripsi produk internasional.
 - Login dan daftar akun dengan database MySQL.
 
-## Cara Menjalankan
+## Akses Demo Publik
 
-1. Jalankan Apache dan MySQL dari Laragon.
-2. Pastikan konfigurasi database di `config.php` sesuai:
-
-```php
-$dbHost = '127.0.0.1';
-$dbName = 'sahabat_umkm_ai';
-$dbUser = 'root';
-$dbPass = '';
-```
-
-3. Buka aplikasi:
+Produk digital ini sudah dapat diakses secara publik melalui:
 
 ```text
-http://localhost/ProjekDicoding/
+https://sahabatumkm.site.je
 ```
 
-Jika memakai virtual host Laragon, buka domain `.test` yang aktif di mesin kamu.
+Pengguna dapat mencoba fitur aplikasi secara langsung melalui domain tersebut tanpa perlu menjalankan project di lokal.
 
-Catatan: aplikasi akan otomatis membuat database `sahabat_umkm_ai` dan tabel `users` saat halaman login/daftar dibuka. File `database.sql` tetap disediakan kalau kamu ingin import manual lewat phpMyAdmin/Adminer.
-
-Untuk server PHP bawaan:
-
-```bash
-C:\laragon\bin\php\php-8.3.30-Win32-vs16-x64\php.exe -S 127.0.0.1:8081 -t public
-```
-
-Lalu buka `http://127.0.0.1:8081/`. Jangan gunakan server Python untuk versi ini karena file PHP tidak akan dieksekusi.
 
 ## Struktur Folder
 
